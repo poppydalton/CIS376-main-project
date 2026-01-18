@@ -1,15 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hello internet</title>
 </head>
-<body>
-    
-    <h1>✌️hello internet</h1>
-    <p>Poppy Dalton 123</p>
 
+<style>
+
+/* internal style sheet < html doc/dom itself  */
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: rgb(224, 173, 231);
+    }
+
+    h1 {
+        color: #eadc13;
+    }
+
+    .login-container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(197, 13, 13, 0.1);
+        max-width: 300px;
+        margin-top: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+
+    .btn-login {
+        background-color: #28a745;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .btn-login:hover {
+        background-color: #218838;
+    }
+
+    .message {
+        margin-top: 10px;
+        color: red;
+    }
+</style>
+
+<body>
+
+    <h1>✌️hello internet</h1>
+    <p>Poppy Dalton</p>
+<!-- 
+    <h2>features</h2>
+    <ul>
+        <li>login</li>
+        <li>search</li>
+        <li>content "card"</li>
+        <li>footer</li>
+    </ul>  -->
+
+<!-- this is how to do a comment--->
+ 
+    <div class="login-container">
+        <style>
+        h2 {
+            text-align: center;
+            color: purple;
+        }
+        </style>
+        <h2>UNA Login</h2>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="put in your name" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn-login">Login</button>
+            <div id="message" class="message"></div>
+        </form>
+    </div>
+
+    <script>
+        conole.log("password is: lasagna")
+    </script>
 
 </body>
+
+
 </html>
