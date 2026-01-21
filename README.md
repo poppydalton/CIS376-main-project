@@ -1,5 +1,5 @@
 # CIS376-Project
-CIS 376 Spring 2026 Course Page
+CIS 376 Spring 2026 
 
 <img width="1436" height="701" alt="Screenshot 2026-01-20 at 9 45 03 AM" src="https://github.com/user-attachments/assets/ca3059a9-43e5-4272-94fb-a54802754d37" />
 
